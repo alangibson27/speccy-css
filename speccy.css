@@ -1,0 +1,49 @@
+@keyframes speccy-header {
+    0% {background: repeating-linear-gradient(red, red 10px, cyan 10px, cyan 30px, red 30px, red 40px);}
+
+    5% {background: repeating-linear-gradient(red, red 8px, cyan 8px, cyan 28px, red 28px, red 40px);}
+
+    10% {background: repeating-linear-gradient(red, red 6px, cyan 6px, cyan 26px, red 26px, red 40px);}
+
+    15% {background: repeating-linear-gradient(red, red 4px, cyan 4px, cyan 24px, red 24px, red 40px);}
+
+    20% {background: repeating-linear-gradient(red, red 2px, cyan 2px, cyan 22px, red 22px, red 40px);}
+
+    25% {background: repeating-linear-gradient(cyan, cyan 20px, red 20px, red 40px);}
+
+    30% {background: repeating-linear-gradient(cyan, cyan 18px, red 18px, red 38px, cyan 38px, cyan 40px);}
+
+    35% {background: repeating-linear-gradient(cyan, cyan 16px, red 16px, red 36px, cyan 36px, cyan 40px);}
+
+    40% {background: repeating-linear-gradient(cyan, cyan 14px, red 14px, red 34px, cyan 34px, cyan 40px);}
+
+    45% {background: repeating-linear-gradient(cyan, cyan 12px, red 12px, red 32px, cyan 32px, cyan 40px);}
+
+    50% {background: repeating-linear-gradient(cyan, cyan 10px, red 10px, red 30px, cyan 30px, cyan 40px);}
+
+    55% {background: repeating-linear-gradient(cyan, cyan 8px, red 8px, red 28px, cyan 28px, cyan 40px);}
+
+    60% {background: repeating-linear-gradient(cyan, cyan 6px, red 6px, red 26px, cyan 26px, cyan 40px);}
+
+    65% {background: repeating-linear-gradient(cyan, cyan 4px, red 4px, red 24px, cyan 24px, cyan 40px);}
+
+    70% {background: repeating-linear-gradient(cyan, cyan 2px, red 2px, red 22px, cyan 22px, cyan 40px);}
+
+    75% {background: repeating-linear-gradient(red, red 20px, cyan 20px, cyan 40px);}
+
+    80% {background: repeating-linear-gradient(red, red 18px, cyan 18px, cyan 38px, red 38px, red 40px);}
+
+    85% {background: repeating-linear-gradient(red, red 16px, cyan 16px, cyan 36px, red 36px, red 40px);}
+
+    90% {background: repeating-linear-gradient(red, red 14px, cyan 14px, cyan 34px, red 34px, red 40px);}
+
+    100% {background: repeating-linear-gradient(red, red 12px, cyan 12px, cyan 32px, red 32px, red 40px);}
+}
+
+
+.speccy-loading {
+  animation-name: speccy-header;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+}
+
